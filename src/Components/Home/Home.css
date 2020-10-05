@@ -1,0 +1,65 @@
+.home h1{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-align: center;
+    margin-top: 69px;
+}
+.home__search{
+    display: flex;
+    justify-content: center;
+    margin-top: 26px;
+}
+.search__input{
+    width: 470px;
+    height: 50px;
+    background: #FBFBFB;
+    border: 1px solid #D6D6D6;
+    box-sizing: border-box;
+    border-radius: 8px;
+    padding-left: 15px;
+}
+.home__search button{
+    width: 118px;
+    height: 49px;
+    position: absolute;
+    left: 800px;
+    top: 260px;
+    border-radius: 0px 8px 8px 0px;
+}
+.home__events{
+    margin-top: 51px;
+    margin-left: 30px;
+    margin-right: auto;
+}
+.events__card{
+    width: 270px;
+    height: 320px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.events__card:hover{
+    cursor: pointer;
+}
+.events__card img{
+    width: 270px;
+}
+.colorBox{
+    position: relative;
+    z-index: 1;
+    top: -80px;
+    height: 80px;
+    width: 270px;
+    /* background-color: red; */
+    border-radius: 0px 0px 10px 10px;
+}
+.events__card h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: white;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.noRender{
+    display: none;
+}
+.navbar{
+    margin-top: 45px;
+}
+.navbar__logo{
+    width: 202.81px;
+    height: 60px;
+    margin-left: 87px;
+}
+.navbar__nav{
+    display: flex;
+    flex-direction: row;
+    margin-right: 87px;
+}
+.navbar__nav p{
+    margin-top: auto;
+    margin-bottom: auto;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+}
+.navbar__nav p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.donotRender{
+    display: none;
+}

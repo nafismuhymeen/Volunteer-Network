@@ -1,0 +1,12 @@
+.volunt-list{
+    width: 90%;
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.volunt-list p{
+    padding-left: 40px;
+}

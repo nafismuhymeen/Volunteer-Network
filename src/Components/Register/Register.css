@@ -1,0 +1,54 @@
+.register__logo{
+    position: absolute;
+    top: 44px;
+    left: 50%;
+    transform: translate(-50%);
+    width: 202.81px;
+    height: 60px;
+}
+.register__form{
+    width: 570px;
+    height: 591px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 171px;
+    background: #FFFFFF;
+    border: 1px solid #ABABAB;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.register__form h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 36.03px;
+    padding-left: 55px;
+}
+.form__input{
+    width: 461px;
+    height: 32px;
+    border: none;
+    border-bottom: 1px solid #C5C5C5;
+    color: black;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 45px;
+    margin-left: 55px;
+    
+}
+.form__input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #7293ff;
+}
+.register__form button{
+    width: 462px;
+    height: 48px;
+    margin-left: 54px;
+    
+}
